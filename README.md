@@ -19,7 +19,7 @@
 
 - git clone https://github.com/pdepegalajar/ProyectoIAW_CV.git
 
-  - cd /opt/lampp/htdocs/ProyectoIAW_CV
+- cd /opt/lampp/htdocs/ProyectoIAW_CV
 
 
 ### Descarga la API HTML2PDF

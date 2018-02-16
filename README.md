@@ -38,15 +38,20 @@
 
 - composer global require spipu/html2pdf
 
-3. para ejecutar la instalación.
+3. Ejecutar la instalación.
 
 - composer install --no-dev
-- Una vez instalada la API y descargado esta librería hay que crear una carpeta para que se guarden las fotos subidas.
+
+- Una vez **instalada la API y descargado esta librería** hay que crear una carpeta para que se guarden las fotos subidas.
 
 - sudo mkdir /opt/lampp/publico
 
-4. después hay que darle permisos de escritura, yo lo que hare es adueñar la carpeta al usuario del Xampp(daemon)
+4. después hay que darle **permisos de escritura**, yo lo que hare es adueñar la carpeta al usuario del Xampp(daemon)
 
 - sudo chown daemon:daemon /opt/lampp/publico
 
-3. Ya Debería estar funcionando el formulario en XAMPP.
+5. probar en el navegador
+
+- http://localhost/ProyectoIAW_CV
+
+6. Ya Debería estar funcionando el formulario y el generador pdf en XAMPP.

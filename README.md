@@ -29,8 +29,6 @@
 
 2. Cargar framework **html2pdf**
 
-- sudo chmod -R 777 /opt/lampp/htdocs
-
 - sudo apt-get install compozer 
 
 - composer global require spipu/html2pdf

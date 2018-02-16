@@ -11,8 +11,6 @@
 
 - sudo ln -s /opt/lampp/bin/php /usr/local/bin/php
 
-
-
 ### Descarga el proyecto
 
 1. cd /opt/lampp/htdocs/

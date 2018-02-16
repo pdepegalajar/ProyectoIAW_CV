@@ -15,46 +15,46 @@
 
 ### Descarga el proyecto
 
-1. cd /opt/lampp/htdocs/
+3. cd /opt/lampp/htdocs/
 
-2. git clone https://github.com/pdepegalajar/ProyectoIAW_CV.git
+4. git clone https://github.com/pdepegalajar/ProyectoIAW_CV.git
 
   - cd /opt/lampp/htdocs/ProyectoIAW_CV
 
 
 ### Descarga la API HTML2PDF
 
-1. Descarga el paquete **html2pdf**
+5. Descarga el paquete **html2pdf**
 
   - git clone https://github.com/spipu/html2pdf.git
 
-3. También hay que **dar permisos** a la carpeta html2pdf en este caso
+6. También hay que **dar permisos** a la carpeta html2pdf en este caso
 
   - sudo chmod -R 777 /opt/lampp/htdocs/ProyectoIAW_CV/html2pdf/
 
-2. Cargar framework **html2pdf**
+7. Cargar framework **html2pdf**
 
   - cd /opt/lampp/htdocs/ProyectoIAW_CV/html2pdf/
 
   - composer global require spipu/html2pdf
 
-3. Ejecutar la instalación.
+8. Ejecutar la instalación.
 
   - composer install --no-dev
 
-4.Una vez **instalada la API y descargado esta librería** hay que crear una carpeta para que se guarden las fotos subidas.
+9.Una vez **instalada la API y descargado esta librería** hay que crear una carpeta para que se guarden las fotos subidas.
 
   - sudo mkdir /opt/lampp/publico
 
-5. después hay que darle **permisos de escritura**, yo lo que haré es adueñar la carpeta al usuario del xampp(daemon)
+10. después hay que darle **permisos de escritura**, yo lo que haré es adueñar la carpeta al usuario del xampp(daemon)
 
   - sudo chown daemon:daemon /opt/lampp/publico
 
-6. probar en el navegador
+11. probar en el navegador
 
   - http://localhost/ProyectoIAW_CV
 
-7. Ya Debería estar funcionando el formulario y el generador pdf en XAMPP.
+12. Ya Debería estar funcionando el formulario y el generador pdf en XAMPP.
 
 ## Fuentes:
 

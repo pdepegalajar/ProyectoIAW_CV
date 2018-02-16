@@ -11,9 +11,7 @@
 
 - sudo ln -s /opt/lampp/bin/php /usr/local/bin/php
 
-3. También hay que **dar permisos** a la ruta del servidor apache en este caso
 
-- sudo chmod -R 777 /opt/lampp/htdocs
 
 ### Descarga la API HTML2PDF
 
@@ -25,9 +23,21 @@
 
 - git clone https://github.com/spipu/html2pdf.git
 
+3. También hay que **dar permisos** a la carpeta html2pdf en este caso
+
+- sudo chmod -R 777 /opt/lampp/htdocs/proyectoPHP/html2pdf/
+
 2. Cargar framework **html2pdf**
 
+- sudo chmod -R 777 /opt/lampp/htdocs
+
+- sudo apt-get install compozer 
+
 - composer global require spipu/html2pdf
+
+3. para ejecutar la instalación.
+
+- composer install --no-dev
 
 ### Descarga el proyecto
 
@@ -38,4 +48,3 @@
 
 
 3. Ya Debería estar funcionando el formulario en XAMPP.
-

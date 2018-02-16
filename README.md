@@ -55,3 +55,13 @@
 - http://localhost/ProyectoIAW_CV
 
 6. Ya Debería estar funcionando el formulario y el generador pdf en XAMPP.
+
+## Fuentes:
+
+### API HTML2PDF
+
+- https://github.com/spipu/html2pdf
+
+#### Multitud de ejemplos para basarse o aprender.
+
+- https://github.com/spipu/html2pdf/tree/master/examples

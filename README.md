@@ -3,7 +3,7 @@
 
 ### Instalar Compozer en Xampp
 
-1. instala **compozer**.
+1. Instala **compozer**.
 
       - sudo apt-get install compozer 
 
@@ -46,7 +46,7 @@
 
       - sudo mkdir /opt/lampp/publico
 
-8. después hay que darle **permisos de escritura**, yo lo que haré es adueñar la carpeta al usuario del xampp(daemon)
+8. Después hay que darle **permisos de escritura**, yo lo que haré es adueñar la carpeta al usuario del xampp(daemon)
 
       - sudo chown daemon:daemon /opt/lampp/publico
 

@@ -52,7 +52,7 @@
 
 9. probar en el navegador
 
-  - http://localhost/ProyectoIAW_CV
+      - http://localhost/ProyectoIAW_CV
 
 10. Ya Debería estar funcionando el formulario y el generador pdf en XAMPP.
 

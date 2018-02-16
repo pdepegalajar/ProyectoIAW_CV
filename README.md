@@ -35,6 +35,8 @@
 5. Cargar framework **html2pdf**
 
       - cd /opt/lampp/htdocs/ProyectoIAW_CV/html2pdf/
+      
+      - sudo chown daemon:daemon /home/jipii/.composer
 
       - composer global require spipu/html2pdf
 

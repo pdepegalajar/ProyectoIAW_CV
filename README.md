@@ -3,21 +3,21 @@
 
 ### Instalar Compozer en Xampp
 
-1. instala compozer.
+1. instala *compozer*.
 
 - sudo curl -s https://getcomposer.org/installer | /opt/lampp/bin/php
 
-2. Despues  de la instalación, para crear un enlace simbólico para xampp
+2. Despues  de la instalación, para crear un *enlace simbólico para xampp* (Saltar este paso si no se utiliza Xampp for Linux)
 
 - sudo ln -s /opt/lampp/bin/php /usr/local/bin/php
 
-3. También hay que dar permisos a la ruta del servidor apache en este caso
+3. También hay que *dar permisos* a la ruta del servidor apache en este caso
 
 - sudo chmod -R 777 /opt/lampp/htdocs
 
 ### Descarga la API HTML2PDF
 
-1. Descarga el paquete html2pdf
+1. Descarga el paquete *html2pdf*
 
 - mkdir /opt/lampp/htdocs/proyectoPHP
 
@@ -25,7 +25,7 @@
 
 - git clone https://github.com/spipu/html2pdf.git
 
-2. Cargar framework html2pdf
+2. Cargar framework *html2pdf*
 
 - composer global require spipu/html2pdf
 

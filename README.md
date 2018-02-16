@@ -42,7 +42,7 @@
 
       - composer install --no-dev
 
-7.Una vez **instalada la API y descargado esta librería** hay que crear una carpeta para que se guarden las fotos subidas.
+7. Una vez **instalada la API y descargado esta librería** hay que crear una carpeta para que se guarden las fotos subidas.
 
       - sudo mkdir /opt/lampp/publico
 

@@ -42,19 +42,19 @@
 
   - composer install --no-dev
 
-Una vez **instalada la API y descargado esta librería** hay que crear una carpeta para que se guarden las fotos subidas.
+4.Una vez **instalada la API y descargado esta librería** hay que crear una carpeta para que se guarden las fotos subidas.
 
   - sudo mkdir /opt/lampp/publico
 
-4. después hay que darle **permisos de escritura**, yo lo que hare es adueñar la carpeta al usuario del Xampp(daemon)
+5. después hay que darle **permisos de escritura**, yo lo que hare es adueñar la carpeta al usuario del Xampp(daemon)
 
   - sudo chown daemon:daemon /opt/lampp/publico
 
-5. probar en el navegador
+6. probar en el navegador
 
   - http://localhost/ProyectoIAW_CV
 
-6. Ya Debería estar funcionando el formulario y el generador pdf en XAMPP.
+7. Ya Debería estar funcionando el formulario y el generador pdf en XAMPP.
 
 ## Fuentes:
 

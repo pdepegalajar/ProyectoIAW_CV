@@ -41,5 +41,12 @@
 3. para ejecutar la instalación.
 
 - composer install --no-dev
+Una vez instalada la API y descargado esta librería hay que crear una carpeta para que se guarden las fotos subidas.
+
+- sudo mkdir /opt/lampp/publico
+
+4. después hay que darle permisos de escritura, yo lo que hare es adueñar la carpeta al usuario del Xampp(daemon)
+
+- sudo chown daemon:daemon /opt/lampp/publico
 
 3. Ya Debería estar funcionando el formulario en XAMPP.

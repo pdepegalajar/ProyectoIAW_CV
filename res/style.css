@@ -7,7 +7,7 @@ hr {
 	box-shadow: 0 10px 10px -10px #8c8b8b inset;
 }
 body {
-background-image:url("/proyectoPHP/res/fondo.JPG");
+background-image:url("/ProyectoIAW_CV/res/fondo.JPG");
  background-size: cover;
 }
 h1{text-align:center;}

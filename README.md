@@ -7,19 +7,19 @@
 
       - sudo apt-get install compozer 
 
-  - sudo curl -s https://getcomposer.org/installer | /opt/lampp/bin/php
+      - sudo curl -s https://getcomposer.org/installer | /opt/lampp/bin/php
 
 2. Despues  de la instalación, para crear un **enlace simbólico para xampp** (Saltar este paso si no se utiliza Xampp for Linux)
 
-  - sudo ln -s /opt/lampp/bin/php /usr/local/bin/php
+      - sudo ln -s /opt/lampp/bin/php /usr/local/bin/php
 
 ### Descarga el proyecto
 
-- cd /opt/lampp/htdocs/
+      - cd /opt/lampp/htdocs/
 
-- git clone https://github.com/pdepegalajar/ProyectoIAW_CV.git
+      - git clone https://github.com/pdepegalajar/ProyectoIAW_CV.git
 
-- cd /opt/lampp/htdocs/ProyectoIAW_CV
+      - cd /opt/lampp/htdocs/ProyectoIAW_CV
 
 
 ### Descarga la API HTML2PDF

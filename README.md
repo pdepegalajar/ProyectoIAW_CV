@@ -5,7 +5,7 @@
 
 1. instala **compozer**.
 
-  - sudo apt-get install compozer 
+      - sudo apt-get install compozer 
 
   - sudo curl -s https://getcomposer.org/installer | /opt/lampp/bin/php
 

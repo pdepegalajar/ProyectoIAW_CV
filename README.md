@@ -68,7 +68,7 @@
 
 - https://github.com/spipu/html2pdf/tree/master/examples
 
-#### Licencia de la API HTML2PDF
+#### Licencia de la API HTML2PDF(OSL-3.0)
 
 - https://github.com/spipu/html2pdf/blob/master/LICENSE.md
 

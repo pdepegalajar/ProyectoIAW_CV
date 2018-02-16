@@ -15,40 +15,40 @@
 
 ### Descarga el proyecto
 
-      - cd /opt/lampp/htdocs/
+  - cd /opt/lampp/htdocs/
+      
+  - git clone https://github.com/pdepegalajar/ProyectoIAW_CV.git
 
-      - git clone https://github.com/pdepegalajar/ProyectoIAW_CV.git
-
-      - cd /opt/lampp/htdocs/ProyectoIAW_CV
+  - cd /opt/lampp/htdocs/ProyectoIAW_CV
 
 
 ### Descarga la API HTML2PDF
 
 3. Descarga el paquete **html2pdf**
 
-  - git clone https://github.com/spipu/html2pdf.git
+      - git clone https://github.com/spipu/html2pdf.git
 
 4. También hay que **dar permisos** a la carpeta html2pdf en este caso
 
-  - sudo chmod -R 777 /opt/lampp/htdocs/ProyectoIAW_CV/html2pdf/
+      - sudo chmod -R 777 /opt/lampp/htdocs/ProyectoIAW_CV/html2pdf/
 
 5. Cargar framework **html2pdf**
 
-  - cd /opt/lampp/htdocs/ProyectoIAW_CV/html2pdf/
+      - cd /opt/lampp/htdocs/ProyectoIAW_CV/html2pdf/
 
-  - composer global require spipu/html2pdf
+      - composer global require spipu/html2pdf
 
 6. Ejecutar la instalación.
 
-  - composer install --no-dev
+      - composer install --no-dev
 
 7.Una vez **instalada la API y descargado esta librería** hay que crear una carpeta para que se guarden las fotos subidas.
 
-  - sudo mkdir /opt/lampp/publico
+   - sudo mkdir /opt/lampp/publico
 
 8. después hay que darle **permisos de escritura**, yo lo que haré es adueñar la carpeta al usuario del xampp(daemon)
 
-  - sudo chown daemon:daemon /opt/lampp/publico
+      - sudo chown daemon:daemon /opt/lampp/publico
 
 9. probar en el navegador
 

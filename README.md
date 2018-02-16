@@ -9,7 +9,7 @@
 
       - sudo curl -s https://getcomposer.org/installer | /opt/lampp/bin/php
 
-2. Despues  de la instalación, para crear un **enlace simbólico para xampp** (Saltar este paso si no se utiliza Xampp for Linux)
+2. Después de la instalación, hay que crear un **enlace simbólico para xampp** (omitir este paso si no se utiliza Xampp for Linux)
 
       - sudo ln -s /opt/lampp/bin/php /usr/local/bin/php
 

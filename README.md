@@ -68,6 +68,8 @@
 
 - https://github.com/spipu/html2pdf/tree/master/examples
 
+#### Licencia de la API HTML2PDF
 
+- https://github.com/spipu/html2pdf/blob/master/LICENSE.md
 
 Realizado por Alfonso Manuel García León como Proyecto Final de Implantación de Aplicaciones Web de 2º de ASIR

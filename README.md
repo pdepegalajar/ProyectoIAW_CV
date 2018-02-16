@@ -5,6 +5,8 @@
 
 1. instala **compozer**.
 
+- sudo apt-get install compozer 
+
 - sudo curl -s https://getcomposer.org/installer | /opt/lampp/bin/php
 
 2. Despues  de la instalación, para crear un **enlace simbólico para xampp** (Saltar este paso si no se utiliza Xampp for Linux)
@@ -33,8 +35,6 @@
 2. Cargar framework **html2pdf**
 
 - cd /opt/lampp/htdocs/ProyectoIAW_CV/html2pdf/
-
-- sudo apt-get install compozer 
 
 - composer global require spipu/html2pdf
 

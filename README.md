@@ -46,7 +46,7 @@
 
   - sudo mkdir /opt/lampp/publico
 
-5. después hay que darle **permisos de escritura**, yo lo que hare es adueñar la carpeta al usuario del Xampp(daemon)
+5. después hay que darle **permisos de escritura**, yo lo que haré es adueñar la carpeta al usuario del xampp(daemon)
 
   - sudo chown daemon:daemon /opt/lampp/publico
 

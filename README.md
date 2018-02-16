@@ -4,6 +4,7 @@
 ### Instalar Compozer en Xampp
 
 1. instala compozer.
+
 - sudo curl -s https://getcomposer.org/installer | /opt/lampp/bin/php
 
 2. Despues  de la instalación, para crear un enlace simbólico para xampp
@@ -14,13 +15,27 @@
 
 - sudo chmod -R 777 /opt/lampp/htdocs
 
+### Descarga la API HTML2PDF
 
-4. Descarga el paquete html2pdf
+1. Descarga el paquete html2pdf
 
-- cd /opt/lampp/htdocs/proyectoiaw
+- mkdir /opt/lampp/htdocs/proyectoPHP
+
+- cd /opt/lampp/htdocs/proyectoPHP
+
 - git clone https://github.com/spipu/html2pdf.git
 
-5. Cargar framework html2pdf
+2. Cargar framework html2pdf
+
 - composer global require spipu/html2pdf
 
+### Descarga el proyecto
+
+1. cd /opt/lampp/htdocs/proyectoPHP
+
+
+2. git clone https://github.com/pdepegalajar/ProyectoIAW_CV.git
+
+
+3. Ya Debería estar funcionando el formulario en XAMPP.
 

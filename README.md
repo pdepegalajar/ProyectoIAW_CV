@@ -76,7 +76,7 @@
 
 http://www.mclibre.org/consultar/php/
 
-##### Prácticas realizadas en clase
+#### Prácticas realizadas en clase
 
 
 ###### Realizado por Alfonso Manuel García León como Proyecto Final de Implantación de Aplicaciones Web de 2º de ASIR

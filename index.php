@@ -157,8 +157,5 @@ include "res/biblioteca.php";
  <br />
   </div></div></div>
  </form><hr />";
-pie("2018-10-02");
-
-
-
+pie("2018-02-17");
 ?>

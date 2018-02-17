@@ -30,7 +30,7 @@
 
 4. También hay que **dar permisos** a la carpeta html2pdf en este caso
 
-      - sudo chown -R 777 /opt/lampp/htdocs/ProyectoIAW_CV/html2pdf/
+      - sudo chmod -R 777 /opt/lampp/htdocs/ProyectoIAW_CV/html2pdf/
 
 5. Cargar framework **html2pdf**
 

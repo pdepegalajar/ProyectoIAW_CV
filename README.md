@@ -72,4 +72,11 @@
 
 - https://github.com/spipu/html2pdf/blob/master/LICENSE.md
 
-Realizado por Alfonso Manuel García León como Proyecto Final de Implantación de Aplicaciones Web de 2º de ASIR
+#### También alcunos script php basado en en el manual de Programación web en PHP de Bartolomé Sintes Marco.
+
+http://www.mclibre.org/consultar/php/
+
+##### Prácticas realizadas en clase
+
+
+###### Realizado por Alfonso Manuel García León como Proyecto Final de Implantación de Aplicaciones Web de 2º de ASIR

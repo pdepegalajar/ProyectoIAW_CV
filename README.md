@@ -74,7 +74,7 @@
 
 #### También algunos scripts php basados en en el manual de Programación web en PHP de Bartolomé Sintes Marco.
 
-http://www.mclibre.org/consultar/php/
+- http://www.mclibre.org/consultar/php/
 
 #### Prácticas realizadas en clase
 

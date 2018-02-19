@@ -38,7 +38,7 @@
 
       - cd /opt/lampp/htdocs/ProyectoIAW_CV/html2pdf/
       
-      - sudo chown -R daemon:daemon /home/jipii/.composer
+      - sudo chown -R daemon:daemon ~/.composer
 
       - composer global require spipu/html2pdf
 

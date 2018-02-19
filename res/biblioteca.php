@@ -79,9 +79,9 @@ $(\"#informatica\").append(campo);
   	<link rel='stylesheet' href='res/style.css' type='text/css' media='all' />
   </head>
 <body>
-<h1 style=\"text-align:center;\">$texto</h1>
+<h1 style=\"position: inherit; left: 0px; top: 0; width: 100%; height:10%; background-color: red; color: white; text-align: center;\">$texto</h1>
 <br />
-<div id=\"contenido\" class=\"col-6\" style=\"text-align:center;\">\n";
+<div id=\"container\" class=\"container-contact100\" style=\"text-align:center;\">\n";
 }
 
 /*

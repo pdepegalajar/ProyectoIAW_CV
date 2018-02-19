@@ -17,6 +17,7 @@
 ### Descarga el proyecto
 
   - cd /opt/lampp/htdocs/
+  - sudo chmod 777 /opt/lampp/htdocs/
       
   - git clone https://github.com/pdepegalajar/ProyectoIAW_CV.git
 

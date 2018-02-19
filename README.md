@@ -4,9 +4,9 @@
 - https://www.apachefriends.org/es/index.html
 ### Instalar Compozer en Xampp
 
-1. Instala **compozer**.
+1. Instala **composer**.
 
-      - sudo apt-get install compozer 
+      - sudo apt-get install composer 
 
       - sudo curl -s https://getcomposer.org/installer | /opt/lampp/bin/php
 

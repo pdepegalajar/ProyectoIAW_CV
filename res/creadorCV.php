@@ -180,10 +180,12 @@ hr.contenido{color:$colorBorde;}
         
     </table>
     <br>
-   </page>
-   <page backtop=\"10mm\" backbottom=\"10mm\" backleft=\"20mm\" backright=\"20mm\">
-   <br>
-    <h2>Idiomas</h2>
+   </page>";
+   if (!empty($_POST['descripcionIdioma'][0]) || (!empty($_POST['conocimientos'][0])) || (!empty($_POST['otros']))) {
+       print "<page backtop=\"10mm\" backbottom=\"10mm\" backleft=\"20mm\" backright=\"20mm\">
+   <br>";
+   if (!empty($_POST['descripcionIdioma'][0])){
+    print "<h2>Idiomas</h2>
     <hr class=\"contenido\" /><br />
     <table style=\"width: 90%;border: solid 1px #5544DD; border-collapse: collapse\" align=\"center\">
         <thead>
@@ -212,9 +214,10 @@ hr.contenido{color:$colorBorde;}
         </tbody>
         
     </table>
-    <br>
-   
-   <br>
+    <br>";
+    }
+if (!empty($_POST['conocimientos'][0])) {
+	print "<br>
     <h2>Informática</h2>
     <hr class=\"contenido\" /><br />
     <table style=\"width: 90%;border: solid 1px #5544DD; border-collapse: collapse\" align=\"center\">
@@ -238,7 +241,10 @@ hr.contenido{color:$colorBorde;}
         </tbody>  
     </table>
     <br>
-    <br>
+    ";
+}
+if (!empty($_POST['otros'])) {
+	 print " <br>
     <h2>Otros Datos De Interés</h2>
     <hr class=\"contenido\" /><br />
        <table style=\"width: 90%;border: solid 1px #5544DD; border-collapse: collapse\" align=\"center\">
@@ -250,9 +256,10 @@ $otros
         </pre>
         </td>
     </tr>
-
-
-</table>
+    </table>
+";
+}
+print "
     
     <page_footer>
         <table style=\"width: 100%;\">
@@ -264,4 +271,6 @@ $otros
     </page_footer>
    </page>
    ";
+   }
+   
 ?>

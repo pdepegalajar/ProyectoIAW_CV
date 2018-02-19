@@ -2,7 +2,7 @@
 ## Manual para instalar y configurar la API html2pdf en XAMPP y crear el Currículum Vítae a través del formulario
 ## Toda la instalacion está hecha con el Software Xampp for Linux.
 - https://www.apachefriends.org/es/index.html
-### Instalar Compozer en Xampp
+### Instalar Composer en Xampp
 
 1. Instala **composer**.
 

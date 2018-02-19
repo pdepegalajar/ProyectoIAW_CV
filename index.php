@@ -4,22 +4,21 @@ include "res/biblioteca.php";
  cabecera("Crea tu CV. Rellena los datos del formulario");
  // Inicio del Formulario.
  print "
- <hr />
- <form enctype=\"multipart/form-data\" action=\"html2pdf.php\" method=\"post\">
+ <form class=\"contact100-form\" enctype=\"multipart/form-data\" action=\"html2pdf.php\" method=\"post\">
  <!--Aquí utilizo los class de Bootstrap para ordenar la página en tres columnas. -->
-<div class=\"container-fluid\">
-<div class=\"row\">
-<div class=\"col-sm-4\">
+<div class=\"container-contact100\">
+<div class=\"container\">
+<div class=\"col-sm-4 flex-col\">
 <div id=\"datospersonales\">
 <h1>Datos Personales</h1>
  <hr />
- <label for=\"nombre\">Nombre:</label>
+  <label for=\"nombre\">Nombre:</label>
  <input id=\"nombre\" type=\"text\" name=\"nombre\" placeholder=\"Nombre y Apellido\" required=\"\" />
 <br /><label for=\"apellidos\">Apellidos:</label>
  <input id=\"apellidos\" type=\"text\" name=\"apellidos\" placeholder=\"Apellidos\" required=\"\" />
  <br /><label for=\"direccion\">Dirección:</label>
  <input id=\"direccion\" type=\"text\" name=\"direccion\" placeholder=\"Dirección\" required=\"\" />
- <br /><label for=\"ndireccion\">Número</label>
+ <br /> <label for=\"ndireccion\">Número</label>
  <input id=\"ndireccion\" type=\"number\" name=\"ndireccion\" placeholder=\"Número\" required=\"\" />
  <br /><label for=\"poblacion\">Población:</label>
  <input id=\"poblacion\" type=\"text\" name=\"poblacion\" placeholder=\"Población\" />
@@ -47,6 +46,7 @@ include "res/biblioteca.php";
   </div>
   <br />
 <a href=\"#\" onclick=\"AgregarCampos();\">Agregar Campos</a>
+<hr />
 <h1>Elige Un color</h1>
 <hr />
    <label for=\"colorFondo\">Elige un Color de Fondo:<br /> 
@@ -59,7 +59,7 @@ include "res/biblioteca.php";
   <input type=\"color\" name=\"colorBordeSuperior\" value=\"#337722\" /> 
  </label>
    </div>
-  <div class=\"col-sm-4\">
+  <div class=\"col-sm-4 flex-col \">
   <div id=\"experienciaProfesional\">
 <h1>Experiencia profesional</h1>
  <hr />
@@ -89,11 +89,11 @@ include "res/biblioteca.php";
  <div id=\"idiomas\">
  <h1>Idiomas</h1>
  <hr />
- <p style=\"display:inline;\">Nivel de Idioma:
- <select name=\"nivelidioma[]\">    
+ <p style=\"display:inline;color:black;\">Nivel de Idioma:
+ <select class =\".select2-selection--single\" name=\"nivelidioma[]\">   
+ <option value=\"B1\" selected>B1</option> 
  <option value=\"A1\">A1</option>
        <option value=\"A2\">A2</option>
-       <option value=\"B1\" selected=\"selected\">B1</option>
        <option value=\"B2\">B2</option>
        <option value=\"C1\">C1</option>
        <option value=\"C2\">C2</option>
@@ -126,7 +126,7 @@ include "res/biblioteca.php";
  <input id=\"reset\" type=\"reset\" name=\"reset\" value=\"Vacíar\" />
 </div>
  </div>
- <div class=\"col-sm-4\">
+ <div class=\"col-sm-4 flex-col\">
  <div id=\"informatica\">
  <h1>Informática</h1>
  <hr />
@@ -153,9 +153,12 @@ include "res/biblioteca.php";
  <div id=\"otros\">
  <h1>Otros Dátos de Interés</h1>
  <hr /><br />
- <textarea style=\"height:200px;width:200px;\" id=\"otrosdatos\" name=\"otros\" placeholder=\"Mensaje\" required=\"\"></textarea>
+ <textarea style=\"height:200px;width:200px;\" id=\"otrosdatos\" name=\"otros\" placeholder=\"Mensaje\"></textarea>
  <br />
   </div></div></div>
- </form><hr />";
-pie("2018-02-17");
+ </form>";
+pie("2018-02-19");
+
+
+
 ?>

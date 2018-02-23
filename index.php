@@ -80,7 +80,7 @@ include "res/biblioteca.php";
  <input id=\"duracioncurso\" type=\"text\" name=\"duracioncurso[]\" placeholder=\"Duración\"/>
  <br />
  <label for=\"descripcioncurso\">Nombre Certificado:</label>
- <input id=\"descripcioncurso\" type=\"text\" name=\"descripcioncurso[]\" placeholder=\"Nombre\" required=\"\"/>
+ <input id=\"descripcioncurso\" type=\"text\" name=\"descripcioncurso[]\" placeholder=\"Nombre\"/>
   <br />
  </div>
  <br />
@@ -100,8 +100,6 @@ include "res/biblioteca.php";
    </select></p>
  <br />
  <label for=\"descripcionIdioma\">Idioma:</label><input id=\"descripcionIdioma\" type=\"text\" name=\"descripcionIdioma[]\" placeholder=\"Inglés\"/>
- 
- 
  <br />
  </div>
  <br />
@@ -110,13 +108,11 @@ include "res/biblioteca.php";
   <div id=\"subefoto\">
  <h1>Sube una foto (Máximo 2.8 MB)</h1>
 <hr />
-
     <!-- //MAX_FILE_SIZE debe preceder al campo de entrada del fichero -->
     <input type=\"hidden\" name=\"MAX_FILE_SIZE\" value=\"3000000\" />
     <!-- El nombre del elemento de entrada determina el nombre en el array _FILES -->
     Subir Imagen:<input id=\"uploadedfile\" name=\"uploadedfile\" type=\"file\"/>
   </div>
-  
   <br />
   <hr />
  <div id=\"confirmar\">
@@ -158,7 +154,4 @@ include "res/biblioteca.php";
   </div></div></div>
  </form>";
 pie("2018-02-19");
-
-
-
 ?>

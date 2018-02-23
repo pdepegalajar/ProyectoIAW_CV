@@ -88,8 +88,9 @@ hr.contenido{color:$colorBorde;}
   print "</tbody>
         
     </table>
-    <br>
-    <h2>Prácticas profesionales</h2>
+    <br>";
+	if (!empty($_POST['descripcion'][0])){
+    print "<h2>Prácticas profesionales</h2>
     <hr class=\"contenido\" /><br />
     <table style=\"width: 90%;border: solid 1px #5544DD; border-collapse: collapse\" align=\"center\">
         <thead>
@@ -117,8 +118,9 @@ hr.contenido{color:$colorBorde;}
 		 }
         print "</tr>
         </tbody>  
-    </table>
-    <br>
+    </table>";
+    }
+    print "<br>
     <h2>Experiencia profesional</h2>
     <hr class=\"contenido\" /><br />
     <table style=\"width: 90%;border: solid 1px #5544DD; border-collapse: collapse\" align=\"center\">
